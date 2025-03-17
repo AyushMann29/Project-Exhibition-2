@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "URL Shortener Extension",
+    "version": "1.0",
+    "description": "Shorten your URLs quickly and easily.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
